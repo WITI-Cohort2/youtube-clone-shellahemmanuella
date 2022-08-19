@@ -389,17 +389,18 @@ a {
   }
   .anything{
     display: grid;
-    grid-template-columns: repeat(4, 25%);
-    width: calc(100% - 20px);
-    gap: 1px;
-    padding: 4px;
-    column-gap: 10px;
-    
+    grid-template-columns: repeat(2, 35%);
+    margin-left: 20px;
+    /* width: calc(100% - 20px);
+    gap: 0px;
+    padding: 0px;
+    column-gap: 1px;
+     */
     
   }
-  /* .vid{
-    width: 50%;
-  } */
+  .vid{
+    width: 500px;
+  }
 
   .side-bar {
     height: 100%;
@@ -412,6 +413,8 @@ a {
     flex-direction: row;
     overflow-x: scroll;
     overflow-y: none;
+    border-radius: 10px;
+    font-size: 25px;
   }
 
   #menu{
@@ -420,11 +423,16 @@ a {
 
   
     .search input {
-      width: 150px;
+      display: none;
+      /* width: 150px;
       padding: 10px;
       border: 0;
       height: 50%;
-      border-radius: 2px 0 0 2px;
+      border-radius: 2px 0 0 2px; */
+    }
+
+    #ss{
+      display: none;
     }
 
     .content {
